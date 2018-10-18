@@ -23,7 +23,7 @@
     {
         $codeElement = array_diff(scandir('./code'),[     //je scanne ce qu'il y a dans le dossier "code" et je cache
 
-        ".",            //ce qui n'est pas nécessaire genre fichier caché etc
+        ".",            //ce qui n'est pas nécessaire comme fichier caché etc
         "..",  
             
         ]);
